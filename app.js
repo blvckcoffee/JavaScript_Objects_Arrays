@@ -22,7 +22,7 @@ let book = {}
 
 book.title = 'The Sound and the Fury'
 book.author = 'William Faulkner'
-book.pages = 236
+book.pages = 326
 book.readCount = 2
 book.info = function () {
   return `${book.title} by ${book.author}, ${book.pages} pages, read ${book.readCount} times.`
