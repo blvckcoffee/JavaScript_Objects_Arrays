@@ -25,7 +25,7 @@ book.author = 'William Faulkner';
 book.pages = 326;
 book.readCount = 2;
 book.info = function () {
-  return `${book.title} by ${book.author}, ${book.pages} pages, read ${book.readCount} times.`;
+  return `${this.title} by ${this.author}, ${this.pages} pages, read ${this.readCount} times.`;
 };
 
 console.log(book.info());
